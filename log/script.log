@@ -1,0 +1,605 @@
+2016-12-22 11:29:01,516 [Thread-2:10724] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request,'index.html',locals())
+  File "E:\envs\blogenv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\envs\blogenv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "d:\python2.7.12\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\envs\blogenv\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-12-22 11:30:39,986 [Thread-2:11532] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request,'index.html',locals())
+  File "E:\envs\blogenv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\envs\blogenv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "d:\python2.7.12\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\envs\blogenv\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-12-22 11:31:08,183 [Thread-2:8708] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 16, in index
+    return render(request,'index.html',locals())
+  File "E:\envs\blogenv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\envs\blogenv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "d:\python2.7.12\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\envs\blogenv\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-12-22 11:32:28,898 [Thread-2:11824] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 16, in index
+    return render(request,'index.html',locals())
+  File "E:\envs\blogenv\lib\site-packages\django\shortcuts.py", line 30, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader.py", line 68, in render_to_string
+    return template.render(context, request)
+  File "E:\envs\blogenv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 206, in render
+    with context.bind_template(self):
+  File "d:\python2.7.12\Lib\contextlib.py", line 17, in __enter__
+    return self.gen.next()
+  File "E:\envs\blogenv\lib\site-packages\django\template\context.py", line 236, in bind_template
+    updates.update(processor(self.request))
+TypeError: global_setting() takes no arguments (1 given)
+2016-12-22 13:34:37,803 [Thread-5:12044] [django.request:152] [base:get_response] [WARNING]- Not Found: /c.html
+2016-12-23 15:33:39,365 [Thread-3:11184] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-23 16:24:11,890 [Thread-8:15320] [django.request:152] [base:get_response] [WARNING]- Not Found: /jsi18n
+2016-12-23 17:00:26,482 [Thread-16:41376] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:00:52,717 [Thread-2:41792] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:01:02,341 [Thread-8:42276] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:01:14,385 [Thread-17:42412] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: 'date_publish' cannot be specified for Article model form as it is a non-editable field. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:02:33,724 [Thread-2:43136] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: Unknown field(s) (category_id, tag_id) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:02:55,973 [Thread-13:43696] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: Unknown field(s) (category_id, tag_id) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:05:19,811 [Thread-2:46756] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1438, in changeform_view
+    ModelForm = self.get_form(request, obj)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 646, in get_form
+    % (e, self.__class__.__name__)
+FieldError: Unknown field(s) (name) specified for Article. Check fields/fieldsets/exclude attributes of class ArticleAdmin.
+2016-12-23 17:06:19,256 [Thread-2:47376] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 217, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 215, in _get_response
+    response = response.render()
+  File "E:\envs\blogenv\lib\site-packages\django\template\response.py", line 109, in render
+    self.content = self.rendered_content
+  File "E:\envs\blogenv\lib\site-packages\django\template\response.py", line 86, in rendered_content
+    content = template.render(context, self._request)
+  File "E:\envs\blogenv\lib\site-packages\django\template\backends\django.py", line 66, in render
+    return self.template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 208, in render
+    return self._render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader_tags.py", line 174, in render
+    return compiled_parent._render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader_tags.py", line 70, in render
+    result = block.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\loader_tags.py", line 210, in render
+    return template.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 210, in render
+    return self._render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 199, in _render
+    return self.nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\defaulttags.py", line 209, in render
+    nodelist.append(node.render_annotated(context))
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\defaulttags.py", line 315, in render
+    return nodelist.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 994, in render
+    bit = node.render_annotated(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 961, in render_annotated
+    return self.render(context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 1050, in render
+    return render_value_in_context(output, context)
+  File "E:\envs\blogenv\lib\site-packages\django\template\base.py", line 1028, in render_value_in_context
+    value = force_text(value)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\html.py", line 382, in <lambda>
+    klass.__unicode__ = lambda self: mark_safe(klass_unicode(self))
+  File "E:\envs\blogenv\lib\site-packages\django\forms\boundfield.py", line 43, in __str__
+    return self.as_widget()
+  File "E:\envs\blogenv\lib\site-packages\django\forms\boundfield.py", line 101, in as_widget
+    return force_text(widget.render(name, self.value(), attrs=attrs))
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\widgets.py", line 307, in render
+    'widget': self.widget.render(name, value, *args, **kwargs),
+  File "E:\envs\blogenv\lib\site-packages\django\forms\widgets.py", line 617, in render
+    options = self.render_options(value)
+  File "E:\envs\blogenv\lib\site-packages\django\forms\widgets.py", line 567, in render_options
+    for option_value, option_label in self.choices:
+  File "E:\envs\blogenv\lib\site-packages\django\forms\models.py", line 1119, in __iter__
+    yield self.choice(obj)
+  File "E:\envs\blogenv\lib\site-packages\django\forms\models.py", line 1125, in choice
+    return (self.field.prepare_value(obj), self.field.label_from_instance(obj))
+  File "E:\envs\blogenv\lib\site-packages\django\forms\models.py", line 1188, in label_from_instance
+    return smart_text(obj)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\encoding.py", line 41, in smart_text
+    return force_text(s, encoding, strings_only, errors)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\encoding.py", line 78, in force_text
+    s = six.text_type(s)
+TypeError: coercing to Unicode: need string or buffer, int found
+2016-12-23 17:08:35,121 [Thread-8:49092] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /admin/blog/article/add/
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 544, in wrapper
+    return self.admin_site.admin_view(view)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\views\decorators\cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\sites.py", line 211, in inner
+    return view(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1509, in add_view
+    return self.changeform_view(request, None, form_url, extra_context)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 67, in _wrapper
+    return bound_func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 149, in _wrapped_view
+    response = view_func(request, *args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 63, in bound_func
+    return func.__get__(self, type(self))(*args2, **kwargs2)
+  File "E:\envs\blogenv\lib\site-packages\django\utils\decorators.py", line 185, in inner
+    return func(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1449, in changeform_view
+    self.save_model(request, new_object, form, not add)
+  File "E:\envs\blogenv\lib\site-packages\django\contrib\admin\options.py", line 1007, in save_model
+    obj.save()
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\base.py", line 796, in save
+    force_update=force_update, update_fields=update_fields)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\base.py", line 824, in save_base
+    updated = self._save_table(raw, cls, force_insert, force_update, using, update_fields)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\base.py", line 908, in _save_table
+    result = self._do_insert(cls._base_manager, using, fields, update_pk, raw)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\base.py", line 947, in _do_insert
+    using=using, raw=raw)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\query.py", line 1045, in _insert
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "E:\envs\blogenv\lib\site-packages\django\db\models\sql\compiler.py", line 1054, in execute_sql
+    cursor.execute(sql, params)
+  File "E:\envs\blogenv\lib\site-packages\django\db\backends\utils.py", line 79, in execute
+    return super(CursorDebugWrapper, self).execute(sql, params)
+  File "E:\envs\blogenv\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "E:\envs\blogenv\lib\site-packages\django\db\utils.py", line 94, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "E:\envs\blogenv\lib\site-packages\django\db\backends\utils.py", line 64, in execute
+    return self.cursor.execute(sql, params)
+  File "E:\envs\blogenv\lib\site-packages\django\db\backends\mysql\base.py", line 110, in execute
+    return self.cursor.execute(query, args)
+  File "E:\envs\blogenv\lib\site-packages\pymysql\cursors.py", line 166, in execute
+    result = self._query(query)
+  File "E:\envs\blogenv\lib\site-packages\pymysql\cursors.py", line 322, in _query
+    conn.query(q)
+  File "E:\envs\blogenv\lib\site-packages\pymysql\connections.py", line 835, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "E:\envs\blogenv\lib\site-packages\pymysql\connections.py", line 1019, in _read_query_result
+    result.read()
+  File "E:\envs\blogenv\lib\site-packages\pymysql\connections.py", line 1302, in read
+    first_packet = self.connection._read_packet()
+  File "E:\envs\blogenv\lib\site-packages\pymysql\connections.py", line 981, in _read_packet
+    packet.check_error()
+  File "E:\envs\blogenv\lib\site-packages\pymysql\connections.py", line 393, in check_error
+    err.raise_mysql_exception(self._data)
+  File "E:\envs\blogenv\lib\site-packages\pymysql\err.py", line 107, in raise_mysql_exception
+    raise errorclass(errno, errval)
+IntegrityError: (1048, u"Column 'user_id' cannot be null")
+2016-12-26 14:34:18,864 [Thread-10:11888] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-26 14:34:18,970 [Thread-11:7860] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2016-12-26 16:23:59,861 [Thread-38:10400] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads
+2016-12-26 16:24:09,549 [Thread-45:6716] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/
+2016-12-26 16:24:21,476 [Thread-50:4052] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/avatar/2016/12
+2017-01-03 10:14:56,053 [Thread-4:10728] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
+2017-01-03 10:17:57,154 [Thread-57:10288] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/kindeditor
+2017-01-03 10:33:12,605 [Thread-17:3096] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/kindeditor
+2017-01-03 10:34:08,229 [Thread-16:10668] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/kindeditor
+2017-01-03 10:38:16,934 [Thread-14:3104] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/kindeditor
+2017-01-03 10:52:53,812 [Thread-14:5280] [django.request:152] [base:get_response] [WARNING]- Not Found: /admin/uploads/kindeditor
+2017-01-03 11:15:13,986 [Thread-24:10864] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/
+2017-01-03 11:15:20,910 [Thread-29:6916] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/ad
+2017-01-03 11:16:02,628 [Thread-35:5540] [django.request:152] [base:get_response] [WARNING]- Not Found: /uploads/kindeditor/2017/1
+2017-01-03 15:00:43,885 [Thread-8:13784] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 15:32:00,844 [Thread-3:13708] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/base.css
+2017-01-03 15:32:00,852 [Thread-4:11780] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/index.css
+2017-01-03 15:32:00,852 [Thread-7:10800] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:32:00,864 [Thread-6:13560] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2017-01-03 15:32:00,867 [Thread-5:7796] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2017-01-03 15:32:01,023 [Thread-8:13124] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2017-01-03 15:32:01,028 [Thread-9:8944] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-01-03 15:32:01,171 [Thread-10:7020] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-01-03 15:32:01,174 [Thread-11:11588] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-01-03 15:32:01,184 [Thread-13:4892] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-01-03 15:32:01,184 [Thread-12:13580] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:32:01,243 [Thread-16:13180] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-01-03 15:32:01,244 [Thread-15:12896] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-01-03 15:32:01,250 [Thread-17:11344] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-01-03 15:32:01,250 [Thread-14:10220] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
+2017-01-03 15:44:43,690 [Thread-23:14148] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:44:43,690 [Thread-19:1604] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/base.css
+2017-01-03 15:44:43,693 [Thread-20:1196] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/index.css
+2017-01-03 15:44:43,697 [Thread-21:11172] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2017-01-03 15:44:43,697 [Thread-22:11888] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2017-01-03 15:44:43,762 [Thread-25:10628] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-01-03 15:44:43,763 [Thread-27:13320] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-01-03 15:44:43,767 [Thread-24:2988] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:44:43,767 [Thread-26:9536] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a3.jpg
+2017-01-03 15:44:43,809 [Thread-28:10860] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a2.jpg
+2017-01-03 15:44:43,838 [Thread-29:9840] [django.request:152] [base:get_response] [WARNING]- Not Found: /images/a4.jpg
+2017-01-03 15:45:25,447 [Thread-32:12756] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/index.css
+2017-01-03 15:45:25,448 [Thread-31:12800] [django.request:152] [base:get_response] [WARNING]- Not Found: /css/base.css
+2017-01-03 15:45:25,448 [Thread-35:2612] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:45:25,453 [Thread-34:12788] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2017-01-03 15:45:25,453 [Thread-33:12508] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2017-01-03 15:45:25,502 [Thread-36:9848] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2017-01-03 15:45:25,540 [Thread-37:7844] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:50:36,184 [Thread-39:6272] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:52:05,871 [Thread-45:9536] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:52:20,717 [Thread-51:13744] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:53:29,838 [Thread-57:12116] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 15:53:30,680 [Thread-63:11088] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 16:01:15,915 [Thread-3:13708] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 16:05:42,138 [Thread-9:6892] [django.request:152] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2017-01-03 16:37:46,921 [Thread-2:14312] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-01-03 16:38:00,401 [Thread-2:13748] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-01-03 16:43:37,868 [Thread-2:11796] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-01-03 16:44:05,903 [Thread-8:3052] [django.request:124] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /
+Traceback (most recent call last):
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\exception.py", line 39, in inner
+    response = get_response(request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\envs\blogenv\lib\site-packages\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\workspace\python\blog_project\blog\views.py", line 17, in index
+    return render(request, 'index.html', {'category_list':category_list})
+UnboundLocalError: local variable 'category_list' referenced before assignment
+2017-01-03 16:46:35,355 [Thread-10:13084] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:25,414 [Thread-12:11124] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:27,821 [Thread-13:12636] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:30,105 [Thread-14:13728] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:32,696 [Thread-16:13672] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:54,267 [Thread-19:5656] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:47:56,628 [Thread-20:12880] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:48:06,051 [Thread-23:11552] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-03 16:48:15,519 [Thread-26:12624] [django.request:152] [base:get_response] [WARNING]- Not Found: /base.html
+2017-01-09 15:57:52,601 [Thread-31:11608] [django.request:152] [base:get_response] [WARNING]- Not Found: /favicon.ico
